@@ -1,0 +1,22 @@
+{
+    "name": "jackliu/opendouyin",
+    "description": "the php sdk for douyin openplatform",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "5.6.0",
+        "topthink/think": "5.0.24",
+        "php": "5.6.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jack Liu",
+            "email": "liuming@mzsat.cn"
+        }
+    ],
+    "autoload":{
+        "psr-4":{
+            "OpenDouyin\\":"src/"
+        }
+    }
+}
